@@ -8,22 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		AB4484FD230838AC000A02A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4484FC230838AC000A02A9 /* AppDelegate.swift */; };
-		AB4484FF230838AC000A02A9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4484FE230838AC000A02A9 /* ViewController.swift */; };
+		AB4484FF230838AC000A02A9 /* RecentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4484FE230838AC000A02A9 /* RecentViewController.swift */; };
 		AB448502230838AC000A02A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB448500230838AC000A02A9 /* Main.storyboard */; };
 		AB448505230838AC000A02A9 /* WhiteHousePetititons.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AB448503230838AC000A02A9 /* WhiteHousePetititons.xcdatamodeld */; };
 		AB448507230838AE000A02A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB448506230838AE000A02A9 /* Assets.xcassets */; };
 		AB44850A230838AE000A02A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB448508230838AE000A02A9 /* LaunchScreen.storyboard */; };
+		AB44851223083BDF000A02A9 /* TopRatedTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB44851123083BDF000A02A9 /* TopRatedTableViewController.swift */; };
+		AB44851423083BEE000A02A9 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB44851323083BEE000A02A9 /* DetailViewController.swift */; };
+		AB44851623083C85000A02A9 /* Petitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB44851523083C85000A02A9 /* Petitions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AB4484F9230838AC000A02A9 /* WhiteHousePetititons.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhiteHousePetititons.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB4484FC230838AC000A02A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AB4484FE230838AC000A02A9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AB4484FE230838AC000A02A9 /* RecentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentViewController.swift; sourceTree = "<group>"; };
 		AB448501230838AC000A02A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AB448504230838AC000A02A9 /* WhiteHousePetititons.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WhiteHousePetititons.xcdatamodel; sourceTree = "<group>"; };
 		AB448506230838AE000A02A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB448509230838AE000A02A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AB44850B230838AE000A02A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB44851123083BDF000A02A9 /* TopRatedTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopRatedTableViewController.swift; sourceTree = "<group>"; };
+		AB44851323083BEE000A02A9 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		AB44851523083C85000A02A9 /* Petitions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Petitions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +63,10 @@
 			isa = PBXGroup;
 			children = (
 				AB4484FC230838AC000A02A9 /* AppDelegate.swift */,
-				AB4484FE230838AC000A02A9 /* ViewController.swift */,
+				AB4484FE230838AC000A02A9 /* RecentViewController.swift */,
+				AB44851123083BDF000A02A9 /* TopRatedTableViewController.swift */,
+				AB44851323083BEE000A02A9 /* DetailViewController.swift */,
+				AB44851523083C85000A02A9 /* Petitions.swift */,
 				AB448500230838AC000A02A9 /* Main.storyboard */,
 				AB448506230838AE000A02A9 /* Assets.xcassets */,
 				AB448508230838AE000A02A9 /* LaunchScreen.storyboard */,
@@ -139,7 +148,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				AB448505230838AC000A02A9 /* WhiteHousePetititons.xcdatamodeld in Sources */,
-				AB4484FF230838AC000A02A9 /* ViewController.swift in Sources */,
+				AB44851623083C85000A02A9 /* Petitions.swift in Sources */,
+				AB4484FF230838AC000A02A9 /* RecentViewController.swift in Sources */,
+				AB44851423083BEE000A02A9 /* DetailViewController.swift in Sources */,
+				AB44851223083BDF000A02A9 /* TopRatedTableViewController.swift in Sources */,
 				AB4484FD230838AC000A02A9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
